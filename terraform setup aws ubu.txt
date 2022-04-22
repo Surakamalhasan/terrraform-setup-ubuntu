@@ -1,7 +1,7 @@
 
 sudo apt update
 sudo apt install -y zip
-sudo wget https://releases.hashicorp.com/terraform/0.12.29/terraform_0.12.29_linux_amd64.zip
+sudo wget https://releases.hashicorp.com/terraform/0.12.29/terraform_0.12.29_linux_amd64.zip (go to terraform provider take new vresion)
 
 mkdir ~/terraform
 cd ~/terraform
