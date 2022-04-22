@@ -1,0 +1,17 @@
+
+sudo apt update
+sudo apt install -y zip
+sudo wget https://releases.hashicorp.com/terraform/0.12.29/terraform_0.12.29_linux_amd64.zip
+
+mkdir ~/terraform
+cd ~/terraform
+unzip ~/terraform_0.12.29_linux_amd64.zip
+
+ls -al
+sudo nano ~/.profile
+
+export PATH="$PATH:~/terraform"
+
+source ~/.profile
+
+terraform apply
